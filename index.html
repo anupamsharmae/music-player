@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+         <div class="screen">
+        <div class="head-screen">
+            <p id="status">Ready to Play</p>
+            <div id="playlist-icon" class="">
+                <img src="./assets/playlist.png" alt="" class="playlist-icon">
+            </div>
+        </div>
+        
+        <div id="disc" class="screen-img">
+            <img src="./assets/audio3.png" alt="">
+        </div>
+        
+        <div class="song-info">
+            <h2 id="song_name">----</h2>
+            <p id="artist_name">----</p>
+        </div>
+        
+       
+        <div class="media_controls">
+            <div id="previous" class="button">
+                <img src="./assets/rewind.png" class="rewind" alt="">
+            </div>
+            <div id="play" class="button" value="Play">
+                <img id="play-icon" src="./assets/play.png" class="play" alt="">
+                <img id="pause-icon" src="./assets/pause.png" class="pause" alt="">
+            </div>
+            <div id="next" class="button">
+                <img src="./assets/next.png" class="next" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+   
+    
+    <div id="modal" class="modal">
+        <div class="playlist">
+            
+            <div class="head-playlist">
+                <h3>Playlist</h3>
+                <div id="cross-icon" class="">
+                    <img src="./assets/close.png" alt="" class="cross-icon">
+                </div>
+            </div>
+            
+            <div class="list-section">
+                <div class="list">
+                    <h4>Batchbug</h4>
+                    <p>sweet dreams</p>
+                    <audio src="./Music/batchbug-sweet-dreams.mp3" id="1" controls></audio>
+                </div>
+                <div class="list">
+                    <h4>Cali</h4>
+                    <p>beats</p>
+                    <audio src="./Music/cali-beats.mp3" id="2" controls></audio>
+                </div>
+                <div class="list">
+                    <h4>Chillout Lounge</h4>
+                    <p>slow-grind</p>
+                    <audio src="./Music/chillout-lounge-slow-grind.mp3" id="3" controls></audio>
+                </div>
+                <div class="list">
+                    <h4>Dreaming Under The Stars</h4>
+                    <p>Romance</p>
+                    <audio src="./Music/Dreaming-Under-The-Stars.mp3" id="4" controls></audio>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
