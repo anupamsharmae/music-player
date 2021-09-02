@@ -26,9 +26,19 @@
             <h2 id="song_name">----</h2>
             <p id="artist_name">----</p>
         </div>
+
+        <div class="silder_div">
+            <p id="start_duration">0:00</p>
+            <input type="range" name="" id="range" min="0" max="100" value="0" class="silder">
+            <p id="end_duration">0:00</p>
+        </div>
         
        
         <div class="media_controls">
+            <div id="repeat" class="repeat" >
+                <img src="./assets/repeat.png" alt=""  class="repeat-icon">
+            </div>
+
             <div id="previous" class="button">
                 <img src="./assets/rewind.png" class="rewind" alt="">
             </div>
@@ -39,6 +49,18 @@
             <div id="next" class="button">
                 <img src="./assets/next.png" class="next" alt="">
             </div>
+            <div class="wrap" id="volume_wrap_div">
+                <div class="volume-div display" id="volume-div">
+                    <input type="range" name="" id="volume_slider" min="10" max="100" value="90" class="volume-slider">
+                </div>
+                <div id="volume" class="volume">
+                    <img id="unmute" src="./assets/volume.png" alt="" class="volume-icon">
+                    <img id="mute" src="./assets/mute.png" alt="" class="mute-icon">
+                </div>
+                
+            </div>
+            
+
         </div>
     </div>
     </div>
