@@ -304,9 +304,9 @@ h4 {
 .seekbar .seekbar-slider .slider-range .range .dot {
   position: absolute;
   right: -8px;
-  top: -3px;
-  width: 10px;
-  height: 10px;
+  top: -4px;
+  width: 13px;
+  height: 13px;
   background-color: #000000;
   border-radius: 50%;
   visibility: hidden;
